@@ -1,64 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <nav id="navtop" class="left">
-                
-                   <span class="navlogo">
-                    <img class="amazonlogo" src="/Images/logo.jpeg.jpg" alt="" >
-                   </span>
-               
-                <div class="navsearch">
-                    <form action="">
-                        <select class="categories"name="" id="">
-                            <option value="1">All</option>
-                        </select>
-                    </form>
-                    <div class="searchbar">
-                        <input class="text" type="text">
-                    </div>
-                    <div class="search">
-                        <button class="buttonsearchs">
-                            <img class="button" src="/Images/search.png" alt="" >
-                        </button>
-                    </div>
-                </div>
+      <nav>
+        <nav id="navtop" class="left">
+          <span class="navlogo">
+            <img class="amazonlogo" src="/Images/logo.jpeg.jpg" alt="" />
+          </span>
 
-                <div class="detailslists">
-                    <span class="hellosignin"><button class="sign">Sign in</button></span>
-                </div>
-            </nav>  
+          <div class="navsearch">
+            <div class="dropdown">
+              <select class="search" name="" id="">
+                <option value="1">City</option>
+                <option value="2">Mumbai</option>
+                <option value="3">Delhi</option>
+                <option value="4">Pune</option>
+                <option value="5">Banglore</option>
+                <option value="6">Kolkata</option>
+              </select>
+            </div>
+
+            <div class="searchbar">
+              <input class="text" type="text" />
+            </div>
+            <div class="search">
+              <button class="buttonsearchs">
+                <img class="button" src="/Images/search.png" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div class="detailslists">
+            <span class="hellosignin"
+              ><button class="sign">Sign in</button></span
+            >
+          </div>
         </nav>
-        
-        <div class="nav_middle_searchbar">
-            <ul class="variety">
-                <li>
-                    <div class="all">
-                        <img class="all" src="/Images/all lines.png" alt="" width="17px">
-                        <span class="itemsall"><a class="itemlist"href="">All</a></span>
-                        <span class="itemsall"><a class="itemlist"href="">Trending</a></span>
-                        <span class="itemsall"><a class="itemlist"href="">Movies</a></span>
-                        <span class="itemsall"><a class="itemlist"href="">Concerts</a></span>
-                        <span class="itemsall"><a class="itemlist"href="">Theatres</a></span>
-                        <span class="itemsall"><a class="itemlist"href="">Comedy</a></span>
-                        <span class="itemsall"><a class="itemlist"href="">Seminars</a></span>
-                        <span class="itemsall"><a class="itemlist"href="">Contest</a></span>
+      </nav>
+
+      <div class="nav_middle_searchbar">
+        <ul class="variety">
+          <li>
+            <div class="all">
+              <img
+                class="all"
+                src="/Images/all lines.png"
+                alt=""
+                width="17px"
+              />
+              <span class="itemsall"><a class="itemlist" href="">All</a></span>
+              <span class="itemsall"
+                ><a class="itemlist" href="">Trending</a></span
+              >
+              <span class="itemsall"
+                ><a class="itemlist" href="">Movies</a></span
+              >
+              <span class="itemsall"
+                ><a class="itemlist" href="">Concerts</a></span
+              >
+              <span class="itemsall"
+                ><a class="itemlist" href="">Theatres</a></span
+              >
+              <span class="itemsall"
+                ><a class="itemlist" href="">Comedy</a></span
+              >
+              <span class="itemsall"
+                ><a class="itemlist" href="">Seminars</a></span
+              >
+              <span class="itemsall"
+                ><a class="itemlist" href="">Contest</a></span
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="maincontainer">
+        <h2>Recommended Movies</h2>
+        <div class="childcontainer">
+            
+            <div class="card1">
+                <div class="card" style="width: 18rem;">
+                    <img src="/Images/vikram.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Vikram Vedha</h5>
+                      <h6 class="card-title">Action/Crime/Thriller</h6>
+                      <a href="#" class="btn btn-primary">Book Now</a>
                     </div>
-                </li>
-            </ul>
+                  </div>
+            </div>
+
+            <div class="card1">
+                <div class="card" style="width: 18rem;">
+                    <img src="/Images/vikram.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Vikram Vedha</h5>
+                      <h6 class="card-title">Action/Crime/Thriller</h6>
+                      <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="card1">
+                <div class="card" style="width: 18rem;">
+                    <img src="/Images/vikram.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Vikram Vedha</h5>
+                      <h6 class="card-title">Action/Crime/Thriller</h6>
+                      <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="card1">
+                <div class="card" style="width: 18rem;">
+                    <img src="/Images/vikram.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Vikram Vedha</h5>
+                      <h6 class="card-title">Action/Crime/Thriller</h6>
+                      <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                  </div>
+            </div>
 
         </div>
+      </div>
+    </main>
 
-    </header>
-    
-    
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

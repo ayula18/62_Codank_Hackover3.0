@@ -21,7 +21,6 @@ nav.left{
     display: flex;
     margin-left: 11px;
     justify-content: flex-start;
-    margin-left: 100px;
     align-items: center;
     
 }
@@ -95,7 +94,7 @@ button.sign{
     border-radius: 5px;
     color: white;
     font-weight: 600;
-    margin-left: 660px;
+    margin-left: 560px;
 
 }
 button.sign:hover{
@@ -107,7 +106,6 @@ button.sign:hover{
     border-radius: 5px;
     color: black;
     font-weight: 600;
-    margin-left: 760px;
 
 }
 img.button{
@@ -122,6 +120,17 @@ div.detailslists{
     margin-left: 15px;
 
 }
+select.search{
+    width: 98px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 10px 0px 0px 10px ;
+    text-align: center;
+    background-color: #A03232;
+    border: none;
+    color: #fff;
+}
+
 
 span.All{
     color: #fff;
@@ -167,5 +176,32 @@ span.itemsall{
     font-weight: 600;
     margin-left: 30px;
     margin-top: 3px;
+    justify-content: center;
+    align-items: center;
 
+}
+
+div.maincontainer{
+    width: 100vw;
+    height: 70vh;
+    background-color: azure;
+
+}
+h2{
+    margin-left: 15vw;
+}
+div.childcontainer{
+    width: 80vw;
+    height: 70vh;
+    margin-left: 10vw;
+    background-color: antiquewhite;
+    padding-top: 10px;
+    padding-left: 15px;
+    display: flex;
+}
+h6.card-title{
+    margin-top: -11px;
+}
+div.card{
+    margin-top: 5vh;
 }
