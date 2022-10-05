@@ -6,7 +6,7 @@ hr{
     color:  #010913;
 }
 body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Special Elite', cursive;
     background-color: #54252f;
 }
 
@@ -32,8 +32,8 @@ span.navlogo{
     display: flex;
 }
 img.amazonlogo{
-    width: 151px;
-    height: 56px;
+    width: 182px;
+    height: 68px;
     padding: 11px 20px 7px 7px;
     cursor: pointer;
     /* border: 1px solid white; */
@@ -48,7 +48,7 @@ img.amazonlogo{
 }
 
 select.categories{
-    border-right: 1px solid #232f3e32;
+    border-right: 1px solid  	#d9534f;
     border-left: none;
     border-top: none;
     border-bottom: none;
@@ -72,13 +72,14 @@ select.categories{
 .text{
     background-color: #fff;
     height: 40px;
-    width: 325px;
+    width: 425px;
     border: none;
+    padding-left: 1vw;
     border-radius: 0px 0px 0px 0px ;
 }
 
 button.buttonsearchs{
-    background-color: #A03232;
+    background-color:  	#d9534f;
     height: 40px;
     width: 40px;
     border: none;
@@ -94,7 +95,7 @@ div.detailslists{
     margin-left: 15px;
 
 }
-.sign{
+button.sign{
     width: 100px;
     height: 40px;
     font-size: 20px;
@@ -104,9 +105,10 @@ div.detailslists{
     color: white;
     font-weight: 600;
     margin-left: 2vw;
+    cursor: pointer;
     
 }
-.sign:hover{
+ button.sign:hover{
     width: 100px;
     height: 40px;
     font-size: 20px;
@@ -115,10 +117,11 @@ div.detailslists{
     border-radius: 5px;
     color: black;
     font-weight: 600;
+    cursor: pointer;
 
-}
+} 
 
-.login{
+button.login{
     width: 100px;
     height: 40px;
     font-size: 20px;
@@ -128,6 +131,7 @@ div.detailslists{
     color: white;
     font-weight: 600;
     margin-left: 2vw;
+    cursor: pointer;
     
 
 }
@@ -140,8 +144,9 @@ button.login:hover{
     border-radius: 5px;
     color: black;
     font-weight: 600;
+    cursor: pointer;
 
-}
+} 
 img.button{
    width: 18px;
 }
@@ -152,7 +157,7 @@ select.search{
     margin-left: 50px;
     border-radius: 10px 0px 0px 10px ;
     text-align: center;
-    background-color: #A03232;
+    background-color: 	#d9534f;
     border: none;
     color: #fff;
 }
@@ -230,7 +235,8 @@ div.childcontainer{
 
 }
 h6.card-title{
-    margin-top: -11px;
+    margin-top: -7px;
+     font-family: 'Special Elite', cursive;
 }
 div.card{
     margin-top: 5vh;
@@ -283,4 +289,8 @@ div.middlebox2{
     padding-top: 2vh;
     padding-right: 1vw;
     padding-bottom: 1vw;
+}
+h3.home{
+    font-family: 'Gemunu Libre', sans-serif;
+    color: aliceblue;
 }
